@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
+.next/
+out/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML Models (large files)
+ml_services/models/*.pkl
+ml_services/models/*.joblib
+ml_services/models/*.h5
+ml_services/models/*.pb
+
+# Data
+ml_services/data/raw/*
+ml_services/data/processed/*
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Docker
+docker-compose.override.yml
+
